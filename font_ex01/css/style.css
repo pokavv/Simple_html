@@ -16,3 +16,30 @@
 #google {
     font-family: 'DynaPuff', cursive;
 }
+
+/* --------------------------------------- */
+
+@font-face {
+    font-family: "Jua";
+    src: url("../fonts/BMJUA_ttf.ttf");
+}
+@font-face {
+    font-family: "Silkscreen-Bold";
+    src: url("../fonts/Silkscreen-Bold.ttf");
+}
+@font-face {
+    font-family: "Silkscreen-Regular";
+    src: url("../fonts/Silkscreen-Regular.ttf");
+}
+
+/* --------------------------------------- */
+
+.jua-font {
+    font-family: "Jua";
+}
+.silkbold {
+    font-family: "Silkscreen-Bold";
+}
+.silkregular {
+    font-family: "Silkscreen-Regular";
+}
