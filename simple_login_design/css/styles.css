@@ -23,8 +23,7 @@
   .text-field {
     font-size: 14px;
     margin-bottom: 10px;
-    width: 260px;
-    height: 30px;
+    width: 100%;
     border: none;
     padding: 10px;
   }
@@ -32,12 +31,11 @@
   .submit-btn {
     background-color: #1BBC9B;
     font-size: 14px;
-    margin-bottom: 30px;
-    width: 260px;
-    height: 30px;
+    padding: 10px;
     border: none;
-    color: white
-    ;
+    color: white;
+    width: 100%;
+    margin-bottom: 30px;
   }
   
   .links {
