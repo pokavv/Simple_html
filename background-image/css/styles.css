@@ -1,0 +1,30 @@
+.div1 {
+    width: 800px;
+    height: 800px;
+    border: 5px solid green;
+    background-image: url("../images/pic.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.div2 {
+    width: 800px;
+    height: 800px;
+    border: 5px solid green;
+    background-image: url("../images/pic.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.div3 {
+    width: 800px;
+    height: 800px;
+    border: 5px solid green;
+    background-image: url("../images/pic.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+    margin-bottom: 20px;
+}
