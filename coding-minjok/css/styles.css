@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #f0e8d9;
+}
+
+title {
+    margin-top: 75px;
+    margin-bottom: 30px;
+    font-size: 64px;
+}
+
+header {
+    margin-bottom: 75px;
+    font-size: 32px;
+}
+
+.chicken {
+    height: 200px;
+    width: 300px;
+    background-image: url("../images/chicken.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.sushi {
+    height: 200px;
+    width: 300px;
+    background-image: url("../images/sushi.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.burger {
+    height: 200px;
+    width: 300px;
+    background-image: url("../images/burger.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bibimbap {
+    height: 200px;
+    width: 300px;
+    background-image: url("../images/bibimbap.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
