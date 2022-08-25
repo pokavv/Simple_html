@@ -15,8 +15,14 @@ body {
   #logo {
     font-family: serif;
     float: left;
+
+    line-height: 60px;
   }
   
+  #logo img {
+    vertical-align: middle;
+  }
+
   .hero-header {
     background-image: url("../images/hero_image.jpg");
     background-size: cover;
@@ -26,7 +32,9 @@ body {
   }
   
   .hero-header .info {
-    
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
   }
   
   .hero-header .info h1 {
@@ -54,5 +62,9 @@ body {
     border-radius: 5px;
   }
   
-  
-  
+.helper {
+  display: inline-block;
+  height: 100%;
+  background-color: red;
+  vertical-align: middle;
+}
