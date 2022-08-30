@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    min-width: 992px;
+    font-family: "Helvetica";
+  }
+  
+  /* navbar */
+  
+  /* front-image */
+  .front-image {
+    height: 450px;
+    background-image: url("../images/hero_header.jpg");
+  }
+  
+  /* products */
+  
+  /* footer */
+  
