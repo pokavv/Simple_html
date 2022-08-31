@@ -1,75 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>SimpleShop</title>
-    <meta charset="utf-8" />
-    <link href="css/styles.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <div class="logo-bar">
-        <div class="logo-box">
-        <a href="#" class="logo-link">SIMPLESHOP</a>
+
+<head>
+<title>SimpleShop</title>
+<meta charset="utf-8" />
+<link href="css/styles.css" rel="stylesheet" />
+</head>
+
+
+<body>
+<div class="warp">
+
+    <nav id= "nav">
+        <a id="logo_bi" href="#"><img src="images/logo.png" height="20"></a>
+        <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+
+    <section id="main"></section>
+
+    <section id="products">
+      
+        <h1>Our New Products</h1>
+       
+        <div id="container">
+            <div class="col" id= "col-1" >
+                <img src="images/sunglasses.jpg" width="225px">
+                <p class="products_name">Sunglass</p>
+                <p class="products_price">49,000</p>
+            </div>
+
+             <div class="col" id= "col-2" >
+                <img src="images/tassel_loafer.jpg" width="225px">
+                <p class="products_name">Tassel Loafer</p>
+                <p class="products_price">89,000</p>
+            </div>
+
+             <div class="col" id= "col-3" >
+                <img src="images/beige_bag.jpg" width="225px">
+                <p class="products_name">Beige Bag</p>
+                <p class="products_price">69,000</p>
+            </div>
+
+            <div class="col" id= "col-4" >
+                <img src="images/sneakers.jpg" width="225px">
+                <p class="products_name">Sneakers</p>
+                <p class="products_price">79,000</p>
+            </div>
+
+             <div class="col" id= "col-5" >
+                <img src="images/slippers.jpg" width="225px">
+                <p class="products_name">Slippers</p>
+                <p class="products_price">29,000</p>
+            </div>
+
+             <div class="col" id= "col-6" >
+                <img src="images/wrist_watch.jpg" width="225px">
+                <p class="products_name">Wrist Watch</p>
+                <p class="products_price">99,000</p>
+            </div>
+
+            <div class="col" id= "col-7" >
+                <img src="images/fedora_hat.jpg" width="225px">
+                <p class="products_name">Fedora</p>
+                <p class="products_price">39,000</p>
+            </div>
+
+            <div class="col" id= "col-8" >
+                <img src="images/classic_loafer.jpg" width="225px">
+                <p class="products_name">Classic Loafer</p>
+                <p class="products_price">99,000</p>
+            </div>
+
+            <div class="col" id= "col-9" >
+                <img src="images/pink_bag.jpg" width="225px">
+                <p class="products_name">Pink Bag</p>
+                <p class="products_price">79,000</p>
+            </div>
+            <div id= "col-10"></div>
         </div>
-
-        <div class="menu">
-            <ul>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">CART</a></li>
-                <li><a href="#">LOGIN</a></li>
-            </ul>
+       
+        <div class="btn_social">
+            <a href="#"><img src="images/facebook.png"  height="30px"></a>
+            <a href="#"><img src="images/instagram.png"  height="30px"></a>
+            <a href="#"><img src="iimages/twitter.png"  height="30px"></a>
         </div>
-    </div>
-
-    <div class="front-image">
-        <a href="#"></a>
-    </div>
-
-    <div class="product-box">
-            <div class="our-new-products">Our New Products</div>
-            <div class="goods sunglass">
-                <img src="images/sunglasses.jpg" class="sunglass-image">
-                <div class="goods-info">Sunglasses<br>4,900,000</div>
-            </div>
-            <div class="goods tassel-loafer">
-                <img src="images/tassel_loafer.jpg" class="tassel-loafer-image">
-                <div class="goods-info">Tassel Loafer<br>8,000,000</div>
-            </div>
-            <div class="goods beigebag">
-                <img src="images/beige_bag.jpg" class="beigebag-image">
-                <div class="goods-info">Beige Bag<br>6,900,000</div>
-            </div>
-            <div class="goods sneakers">
-                <img src="images/sneakers.jpg" class="sneakers-image">
-                <div class="goods-info">Sneakers<br>7,900,000</div>
-            </div>
-            <div class="goods slippers">
-                <img src="images/slippers.jpg" class="slippers-image">
-                <div class="goods-info">Slippers<br>1,890,000</div>
-            </div>
-            <div class="goods watch">
-                <img src="images/wrist_watch.jpg" class="watch-image">
-                <div class="goods-info">Wrist Watch<br>76,000,000</div>
-            </div>
-            <div class="goods fedora">
-                <img src="images/fedora_hat.jpg" class="fedora-image">
-                <div class="goods-info">Fedora Hat<br>5,490,000</div>
-            </div>
-            <div class="goods classic-loafer">
-                <img src="images/classic_loafer.jpg" class="classic-loafer-image">
-                <div class="goods-info">Classic Loafer<br>9,990,000</div>
-            </div>
-            <div class="goods pinkbag">
-                <img src="images/pink_bag.jpg" class="pinkbag-image">
-                <div class="goods-info">Pink Bag<br>490,000,000</div>
-            </div>
-    </div>
-
-    <div class="bottom-bar">
-        <img src="images/facebook.png" class="fb">
-        <img src="images/instagram.png" class="insta">
-        <img src="images/twitter.png" class="twit">
-    </div>
-  </body>
-</html>
+       
+    </section>
+   
+   
+</div>
+</body>
